@@ -1,21 +1,24 @@
-import { readdirSync } from "fs";
-import { join } from "path";
+import { IncomingMessage, ServerResponse } from "http";
+import fs from "fs";
+import path from "path";
 
-export const GET = async () => {
-  try {
-    const dir = join(process.cwd(), "data", "mods");
-    const files = readdirSync(dir).filter(
-      (f) => f.startsWith("v") && f.endsWith(".json")
-    );
-    const versions = files.map((f) => f.replace(/^v|\.json$/g, ""));
-    return new Response(JSON.stringify(versions), {
-      headers: { "Content-Type": "application/json" },
-      status: 200,
-    });
-  } catch {
-    return new Response(JSON.stringify({ error: "Failed to read versions" }), {
-      headers: { "Content-Type": "application/json" },
-      status: 500,
-    });
-  }
-};
+export default function handler(req: IncomingMessage, res: ServerResponse) {
+  const modsDir = path.join(process.cwd(), "data", "mods");
+
+  fs.readdir(modsDir, (err, files) => {
+    if (err) {
+      res.statusCode = 500;
+      res.setHeader("Content-Type", "application/json");
+      res.end(JSON.stringify({ error: "Failed to read mods directory" }));
+      return;
+    }
+
+    const versions = files
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => file.replace(/^v/, "").replace(".json", ""));
+
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "application/json");
+    res.end(JSON.stringify(versions));
+  });
+}
