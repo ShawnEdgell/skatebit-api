@@ -63,5 +63,379 @@
         "label": "Download"
       }
     ]
+  },
+  {
+    "badge": "Essential",
+    "title": "DeckFX",
+    "author": "Klepto",
+    "workingVersion": "1.4",
+    "keybind": "F3",
+    "features": ["Board, Truck, Wheel Customization"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/deckfx",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/539230/files/1388935/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "XL Gear Mod (XLGM2)",
+    "author": "mcbtay, Redgouf",
+    "workingVersion": "2.0.1",
+    "keybind": "(automatic)",
+    "features": [
+      "Dynamic Clothing",
+      "Custom Character Models",
+      "Unlimited Gear Customization"
+    ],
+    "note": "The XL Gear Mod is integrated into the Edit Skater Menu.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlgearmodifier",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/953573/files/2706420/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Fro's Experimental Mod",
+    "author": "Froquede",
+    "workingVersion": "1.19.0",
+    "keybind": "CTRL + F",
+    "features": ["Enhanced Physics", "Custom Animations"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/fros-experimental-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2224308/files/5090058/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Boned Ollie Mod",
+    "author": "MateusSXL",
+    "workingVersion": "2.2.0",
+    "keybind": "F8",
+    "features": ["Advanced Trick Customization", "Enhanced Control"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/boned-ollie-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/1987561/files/2611972/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "XL Menu Mod",
+    "author": "mcbtay",
+    "workingVersion": "2.6.1",
+    "keybind": "(automatic)",
+    "features": ["Map and Gear Sorting", "Dark Mode", "Enahnced UI"],
+    "note": "This mod is a must-have, especially if you are using the XLGM mod and have a lot of gear/maps.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlmenumod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/135638/files/2706045/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "New",
+    "title": "XL Multiplayer Map Vote",
+    "author": "Guru",
+    "workingVersion": "1.0.0",
+    "keybind": "(automatic)",
+    "features": ["Allows players to vote for the next map in multiplayer"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xl-multiplayer-map-vote",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/4466553/files/5744063/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "XL Weather",
+    "author": "Guru",
+    "workingVersion": "0.3.0",
+    "keybind": "W",
+    "features": [
+      "Day/Night cycles",
+      "Skybox customization",
+      "Add rain, snow, fog, etc."
+    ],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlweather",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/3866066/files/4965727/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Grind Tools",
+    "author": "Guru",
+    "workingVersion": "1.0.2",
+    "keybind": "(automatic)",
+    "features": ["Customizable Grind Splines", "Wax Tool"],
+    "note": "Access this mod through the Pause menu.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/grind-tools",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/3435627/files/4444199/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Mutliplayer++",
+    "author": "MateusSXL",
+    "workingVersion": "1.0.1",
+    "keybind": "(automatic)",
+    "features": ["Improved Mutliplayer UI"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/multiplayer",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2154245/files/2704744/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Better Replay Mod",
+    "author": "Froquede",
+    "workingVersion": "1.5.0",
+    "keybind": "CTRL + F10",
+    "features": ["Camera Light", "Advanced Replay Tracking"],
+    "note": "Configure this mod by using the drop down menu in the UnityModManager window.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/better-replay-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2153273/files/4033621/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "XL Object Dropper",
+    "author": "mcbtay, SqueegeeDinoToy",
+    "workingVersion": "1.0.5",
+    "keybind": "(automatic)",
+    "features": ["Custom Objects", "NPC's"],
+    "note": "This mod is integrated into the Pause menu.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlobjectdropper",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/176938/files/2964580/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Walking Mod",
+    "author": "Froquede",
+    "workingVersion": "1.3.0",
+    "keybind": "X + A or Sqaure + X (controller)",
+    "features": ["Walking", "Custom Animations and Emotes"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/walking-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2959629/files/4439420/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Grab Customizer",
+    "author": "Froquede",
+    "workingVersion": "1.7.2",
+    "keybind": "CTRL + G",
+    "features": ["Comprehensive Grab Customization"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/grabs-customizer-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2124873/files/4014973/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Lateflip Mod",
+    "author": "MateusSXL",
+    "workingVersion": "1.1.1",
+    "keybind": "(automatic)",
+    "features": ["Realistic Late Flip Mechanics"],
+    "note": "Press L + F to toggle on/off.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/late-flip-mod-with-animations",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/1932034/files/2654843/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "BreakFX",
+    "author": "DawgVinci",
+    "workingVersion": "0.0.1",
+    "keybind": "B",
+    "features": ["Board Break Mechanics"],
+    "note": "The board will break automatically by default, or by pressing B on keyboard.",
+    "downloadLinks": [
+      {
+        "url": "https://discord.com/invite/GmuBn6UzUh",
+        "label": "DawgVinci's Discord"
+      },
+      {
+        "url": "https://damp-limit-8cd1.milky-irl.workers.dev/BreakFX_0.0.1.zip",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "XL Random Map",
+    "author": "mcbtay",
+    "workingVersion": "0.0.2",
+    "keybind": "X or Square on controller while Map Menu is open",
+    "features": ["Map seletion Randomizer"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlrandommap",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/1867421/files/2340978/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Gear Utilities",
+    "author": "DawgVinci",
+    "workingVersion": "2.0d",
+    "keybind": "G",
+    "features": ["Custom Accessories"],
+    "note": "Nagivate to the #gearutilies section within DawgVinci's Discord to find this mod.",
+    "downloadLinks": [
+      {
+        "url": "https://discord.com/invite/GmuBn6UzUh",
+        "label": "DawgVinci's Discord"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1vxhbZh6GW1Xs_CMAaZwZVD7AwOgZRj4e/",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Not My Feet",
+    "author": "M4cs",
+    "workingVersion": "1.1",
+    "keybind": "N",
+    "features": ["Remove shoe highlighting when using controller the overlay"],
+    "note": "Follow the steps on mod.io to use this mod.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/notmyfeet",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/145102/files/177398/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Controls Editor",
+    "author": "Silentbaws",
+    "workingVersion": "0.1.1",
+    "keybind": "CTRL + F10",
+    "features": ["Control Customization", "Personalized Trick Mechanics"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/controls-editor",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/138210/files/1170040/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Controller Rumble",
+    "author": "billowper, Froquede",
+    "workingVersion": "1.2.3",
+    "keybind": "(automatic)",
+    "features": ["Customizable Rumble Feedback"],
+    "note": "",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/controller-rumble",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/138381/files/2260117/download",
+        "label": "Download"
+      }
+    ]
   }
 ]
