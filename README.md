@@ -1,6 +1,8 @@
 # Skatebit API
 
-A lightweight, versioned API for curated Skater XL mods — built for the community, by the community.
+A lightweight, versioned API for curated Skater XL mods.
+
+> Example: https://skatebit-api.vercel.app/api/mods/12104
 
 ## ✨ Features
 
@@ -23,14 +25,6 @@ A lightweight, versioned API for curated Skater XL mods — built for the commun
 ├── vercel.json # Sets CORS headers for API access
 └── README.md
 ```
-
-## 🚀 Deploy to Vercel
-
-1. Push this repo to GitHub
-2. Connect it to [Vercel](https://vercel.com)
-3. You now have a live mod API — no config needed
-
-> Example: https://skatebit-api.vercel.app/api/mods/1256
 
 ## 🔮 Roadmap
 
