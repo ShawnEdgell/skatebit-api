@@ -1,37 +1,44 @@
 # Skatebit API
 
-A lightweight, community-driven API for curated Skater XL mods.
+A lightweight, versioned API for curated Skater XL mods — built for the community, by the community.
 
-## 🔧 Features
+## ✨ Features
 
-- Versioned mod list endpoints at `/api/mods/[version]`
-- Version index available at `/api/mods/versions`
-- CORS-enabled for client-side use
-- Deployable to Vercel with zero config
+- ✅ Versioned endpoints: `GET /api/mods/[version]`
+- ✅ Version list endpoint: `GET /api/mods/versions`
+- ✅ CORS-enabled: ready for use in websites and apps
+- ✅ Instantly deployable on [Vercel](https://vercel.com)
 
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
-/skatebit-api
 ├── api/
-│   └── mods/
-│       ├── [version].ts      // Dynamic version endpoint
-│       └── versions.ts       // Lists all supported versions
+│ └── mods/
+│ ├── [version].ts # Dynamic route: returns JSON for a specific game version
+│ └── versions.ts # Lists all available version files
 ├── data/
-│   └── mods/
-│       ├── v1256.json        // Mods for SXL v1.2.5.6
-│       └── v133.json         // Mods for SXL v1.3.3
-├── vercel.json               // CORS headers
+│ └── mods/
+│ ├── v1256.json # Mods for Skater XL v1.2.5.6
+│ └── v1228.json # Mods for Skater XL v1.2.2.8
+├── vercel.json # Sets CORS headers for API access
 └── README.md
 ```
 
-## 🚀 Deploy
+## 🚀 Deploy to Vercel
 
-Push this repo to GitHub and connect it to Vercel.
+1. Push this repo to GitHub
+2. Connect it to [Vercel](https://vercel.com)
+3. You now have a live mod API — no config needed
 
-## 💡 Future Plans
+> Example: https://skatebit-api.vercel.app/api/mods/1256
 
-- Admin-only edit UI
-- Discord bot integration
-- Community suggestions
-- Mod status flags
+## 🔮 Roadmap
+
+- [ ] Admin web UI to edit mods from the browser
+- [ ] Discord bot for syncing with channels
+- [ ] Community mod feedback system
+- [ ] Mod status flags (e.g. working, broken, outdated)
+
+---
+
+Feel free to fork, contribute, or build tools around it.
