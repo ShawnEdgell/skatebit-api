@@ -25,9 +25,7 @@ export default function handler(req: IncomingMessage, res: ServerResponse) {
 
           return {
             slug: file.replace(/^v/, "").replace(".json", ""), // fallback slug
-            versionLabel: data.versionLabel || "Unnamed",
-            versionSlug:
-              data.versionSlug || file.replace(/^v/, "").replace(".json", ""),
+            label: data.label || "Unnamed",
             description: data.description || "",
           };
         } catch (e) {
