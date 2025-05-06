@@ -1,3 +1,4 @@
+// pages/api/mods/versions.ts
 import { IncomingMessage, ServerResponse } from "http";
 import fs from "fs";
 import path from "path";
@@ -13,9 +14,27 @@ export default function handler(req: IncomingMessage, res: ServerResponse) {
       return;
     }
 
-    const versions = files
-      .filter((file) => file.endsWith(".json"))
-      .map((file) => file.replace(/^v/, "").replace(".json", ""));
+    const jsonFiles = files.filter((file) => file.endsWith(".json"));
+
+    const versions = jsonFiles
+      .map((file) => {
+        const filePath = path.join(modsDir, file);
+        try {
+          const raw = fs.readFileSync(filePath, "utf-8");
+          const data = JSON.parse(raw);
+
+          return {
+            slug: file.replace(/^v/, "").replace(".json", ""), // fallback slug
+            versionLabel: data.versionLabel || "Unnamed",
+            versionSlug:
+              data.versionSlug || file.replace(/^v/, "").replace(".json", ""),
+            description: data.description || "",
+          };
+        } catch (e) {
+          return null; // skip bad files
+        }
+      })
+      .filter(Boolean);
 
     res.statusCode = 200;
     res.setHeader("Content-Type", "application/json");

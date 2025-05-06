@@ -5,7 +5,7 @@ import url from "url";
 
 export default function handler(req: IncomingMessage, res: ServerResponse) {
   const { pathname } = url.parse(req.url || "");
-  const match = pathname?.match(/\/api\/mods\/(\d+)/);
+  const match = pathname?.match(/\/api\/mods\/([^/]+)/); // Match slugs like "1228", "decals", etc.
 
   if (!match) {
     res.statusCode = 400;
@@ -13,18 +13,27 @@ export default function handler(req: IncomingMessage, res: ServerResponse) {
     return;
   }
 
-  const version = match[1];
-  const filePath = path.join(process.cwd(), "data", "mods", `v${version}.json`);
+  const slug = match[1];
+  const fallbackPath = path.join(process.cwd(), "data", "mods", `${slug}.json`);
+  const prefixedPath = path.join(
+    process.cwd(),
+    "data",
+    "mods",
+    `v${slug}.json`
+  );
 
-  fs.readFile(filePath, "utf-8", (err, data) => {
-    if (err) {
-      res.statusCode = 404;
-      res.end(`No mod list found for version ${version}`);
+  const tryPaths = [prefixedPath, fallbackPath];
+
+  for (const filePath of tryPaths) {
+    if (fs.existsSync(filePath)) {
+      const data = fs.readFileSync(filePath, "utf-8");
+      res.statusCode = 200;
+      res.setHeader("Content-Type", "application/json");
+      res.end(data);
       return;
     }
+  }
 
-    res.statusCode = 200;
-    res.setHeader("Content-Type", "application/json");
-    res.end(data);
-  });
+  res.statusCode = 404;
+  res.end(`No mod list found for version slug "${slug}"`);
 }
