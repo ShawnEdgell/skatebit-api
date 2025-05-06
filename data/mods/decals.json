@@ -1,6 +1,5 @@
 {
-  "versionLabel": "Decals",
-  "versionSlug": "decals",
+  "label": "Decals",
   "description": "Adds map decals to the game",
   "mods": [
     {
