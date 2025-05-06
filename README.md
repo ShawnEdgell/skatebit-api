@@ -2,8 +2,6 @@
 
 A lightweight, versioned API for curated Skater XL mods.
 
-> Example: https://skatebit-api.vercel.app/api/mods/12104
-
 ## ✨ Features
 
 - ✅ Versioned endpoints: `GET /api/mods/[version]`
@@ -34,5 +32,3 @@ A lightweight, versioned API for curated Skater XL mods.
 - [ ] Mod status flags (e.g. working, broken, outdated)
 
 ---
-
-Feel free to fork, contribute, or build tools around it.
