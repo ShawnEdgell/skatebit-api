@@ -1,277 +1,273 @@
-{
-  "label": "Public/Beta Mod List",
-  "description": "Latest official release with full game features.",
-  "mods": [
-    {
-      "badge": "Essential",
-      "title": "XL Mod (Stats Menu)",
-      "author": "DawgVinci",
-      "workingVersion": "1.0.0c",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "F7",
-      "features": [
-        "Stats Customization",
-        "Enhanced Gameplay Control",
-        "Stance and Steeze Settings"
-      ],
-      "note": "All DawgVinci mods are hosted in his Discord server.",
-      "downloadLinks": [
-        {
-          "url": "https://discord.com/invite/GmuBn6UzUh",
-          "label": "DawgVinci's Discord"
-        },
-        {
-          "url": "https://damp-limit-8cd1.milky-irl.workers.dev/XLMod_1.0.0c_for_SkaterXL_1.2.7.8.zip",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "XL Graphics",
-      "author": "Babbo",
-      "workingVersion": "2.0.2",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "Backspace",
-      "features": [
-        "Camera Customization",
-        "Fisheye Lens Effect",
-        "Follow Camera"
-      ],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://discord.gg/mBJ5wCchVm",
-          "label": "Fro's Discord"
-        },
-        {
-          "url": "https://damp-limit-8cd1.milky-irl.workers.dev/XLGraphics_v2.0.2.zip",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "Deck Tools",
-      "author": "Guru",
-      "workingVersion": "0.0.2",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "CTRL + D",
-      "features": ["Board, Truck, Wheel Customization"],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://discord.com/invite/RDh7tg2Bs5",
-          "label": "Guru's Discord"
-        },
-        {
-          "url": "https://damp-limit-8cd1.milky-irl.workers.dev/DeckTools_v0.0.2_for_SXL_1.2.6.0.zip",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "Soundmod",
-      "author": "Babbo, jbooogie",
-      "workingVersion": "1.2.0",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "None",
-      "features": ["Enhanced Gameplay/UI Sounds", "Custom Soundpacks"],
-      "note": "SoundMod version 1.2.0 does not include any pre-installed sounds. You'll need to download and manually install a soundpack to hear any changes.",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/soundmod",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/137917/files/3606405/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "XL Gear Mod (XLGM2)",
-      "author": "mcbtay, Redgouf",
-      "workingVersion": "2.0.2",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "None",
-      "features": [
-        "Dynamic Clothing",
-        "Custom Character Models",
-        "Unlimited Gear Customization"
-      ],
-      "note": "The XL Gear Mod is integrated into the Edit Skater Menu.",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/xlgearmodifier",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/953573/files/4988510/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "Fro's Experimental Mod",
-      "author": "Froquede",
-      "workingVersion": "2.0.1",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "CTRL + F",
-      "features": ["Enhanced Physics", "Custom Animations"],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/fros-experimental-mod",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/2224308/files/3614492/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "Boned Ollie Mod",
-      "author": "MateusSXL",
-      "workingVersion": "2.4.0",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "F8",
-      "features": ["Advanced Trick Customization", "Enhanced Control"],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/boned-ollie-mod",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/1987561/files/4445162/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "badge": "Essential",
-      "title": "XL Menu Mod",
-      "author": "mcbtay",
-      "workingVersion": "2.6.3",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "None",
-      "features": ["Map and Gear Sorting", "Dark Mode", "Enahnced UI"],
-      "note": "Download and install the XL Menu Mod v2.6.2. Right-click in the mod in UMM to update to v2.6.3.",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/xlmenumod",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/135638/files/5001412/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "title": "XL Weather",
-      "author": "Guru",
-      "workingVersion": "0.3.3",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "W",
-      "features": [
-        "Day/Night cycles",
-        "Skybox customization",
-        "Add rain, snow, fog, etc."
-      ],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/xlweather",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/3866066/files/5079355/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "title": "Grind Tools",
-      "author": "Guru",
-      "workingVersion": "2.0.1",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "None",
-      "features": ["Customizable Grind Splines", "Wax Tool"],
-      "note": "Access this mod through the Pause menu.",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/grind-tools",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/3435627/files/4431380/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "title": "Mutliplayer++",
-      "author": "MateusSXL",
-      "workingVersion": "1.0.2",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "None",
-      "features": ["Improved Mutliplayer UI"],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/multiplayer",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/2154245/files/3593904/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "title": "Better Replay Mod",
-      "author": "Froquede",
-      "workingVersion": "2.1.0",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "CTRL + F10",
-      "features": ["Camera Light", "Advanced Replay Tracking"],
-      "note": "Configure this mod by using the drop down menu in the UnityModManager window.",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/better-replay-mod",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/2153273/files/3655726/download",
-          "label": "Download"
-        }
-      ]
-    },
-    {
-      "title": "ShapeFX",
-      "author": "DawgVinci ",
-      "workingVersion": "1.0.0",
-      "gameVersion": ["Public", "Beta"],
-      "keybind": "F6",
-      "features": ["Skateboard Deck Shapes", "Custom Materials"],
-      "note": "None",
-      "downloadLinks": [
-        {
-          "url": "https://discord.com/invite/GmuBn6UzUh",
-          "label": "DawgVinci's Discord"
-        },
-        {
-          "url": "https://damp-limit-8cd1.milky-irl.workers.dev/ShapeFX_1.0.0_for_SXL_1.2.6.0.zip",
-          "label": "Download"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "badge": "Essential",
+    "title": "XL Mod (Stats Menu)",
+    "author": "DawgVinci",
+    "workingVersion": "1.0.0c",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "F7",
+    "features": [
+      "Stats Customization",
+      "Enhanced Gameplay Control",
+      "Stance and Steeze Settings"
+    ],
+    "note": "All DawgVinci mods are hosted in his Discord server.",
+    "downloadLinks": [
+      {
+        "url": "https://discord.com/invite/GmuBn6UzUh",
+        "label": "DawgVinci's Discord"
+      },
+      {
+        "url": "https://damp-limit-8cd1.milky-irl.workers.dev/XLMod_1.0.0c_for_SkaterXL_1.2.7.8.zip",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "XL Graphics",
+    "author": "Babbo",
+    "workingVersion": "2.0.2",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "Backspace",
+    "features": [
+      "Camera Customization",
+      "Fisheye Lens Effect",
+      "Follow Camera"
+    ],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://discord.gg/mBJ5wCchVm",
+        "label": "Fro's Discord"
+      },
+      {
+        "url": "https://damp-limit-8cd1.milky-irl.workers.dev/XLGraphics_v2.0.2.zip",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Deck Tools",
+    "author": "Guru",
+    "workingVersion": "0.0.2",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "CTRL + D",
+    "features": ["Board, Truck, Wheel Customization"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://discord.com/invite/RDh7tg2Bs5",
+        "label": "Guru's Discord"
+      },
+      {
+        "url": "https://damp-limit-8cd1.milky-irl.workers.dev/DeckTools_v0.0.2_for_SXL_1.2.6.0.zip",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Soundmod",
+    "author": "Babbo, jbooogie",
+    "workingVersion": "1.2.0",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "None",
+    "features": ["Enhanced Gameplay/UI Sounds", "Custom Soundpacks"],
+    "note": "SoundMod version 1.2.0 does not include any pre-installed sounds. You'll need to download and manually install a soundpack to hear any changes.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/soundmod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/137917/files/3606405/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "XL Gear Mod (XLGM2)",
+    "author": "mcbtay, Redgouf",
+    "workingVersion": "2.0.2",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "None",
+    "features": [
+      "Dynamic Clothing",
+      "Custom Character Models",
+      "Unlimited Gear Customization"
+    ],
+    "note": "The XL Gear Mod is integrated into the Edit Skater Menu.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlgearmodifier",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/953573/files/4988510/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Fro's Experimental Mod",
+    "author": "Froquede",
+    "workingVersion": "2.0.1",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "CTRL + F",
+    "features": ["Enhanced Physics", "Custom Animations"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/fros-experimental-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2224308/files/3614492/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "Boned Ollie Mod",
+    "author": "MateusSXL",
+    "workingVersion": "2.4.0",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "F8",
+    "features": ["Advanced Trick Customization", "Enhanced Control"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/boned-ollie-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/1987561/files/4445162/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "badge": "Essential",
+    "title": "XL Menu Mod",
+    "author": "mcbtay",
+    "workingVersion": "2.6.3",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "None",
+    "features": ["Map and Gear Sorting", "Dark Mode", "Enahnced UI"],
+    "note": "Download and install the XL Menu Mod v2.6.2. Right-click in the mod in UMM to update to v2.6.3.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlmenumod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/135638/files/5001412/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "XL Weather",
+    "author": "Guru",
+    "workingVersion": "0.3.3",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "W",
+    "features": [
+      "Day/Night cycles",
+      "Skybox customization",
+      "Add rain, snow, fog, etc."
+    ],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/xlweather",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/3866066/files/5079355/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Grind Tools",
+    "author": "Guru",
+    "workingVersion": "2.0.1",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "None",
+    "features": ["Customizable Grind Splines", "Wax Tool"],
+    "note": "Access this mod through the Pause menu.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/grind-tools",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/3435627/files/4431380/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Mutliplayer++",
+    "author": "MateusSXL",
+    "workingVersion": "1.0.2",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "None",
+    "features": ["Improved Mutliplayer UI"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/multiplayer",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2154245/files/3593904/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "Better Replay Mod",
+    "author": "Froquede",
+    "workingVersion": "2.1.0",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "CTRL + F10",
+    "features": ["Camera Light", "Advanced Replay Tracking"],
+    "note": "Configure this mod by using the drop down menu in the UnityModManager window.",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/better-replay-mod",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/2153273/files/3655726/download",
+        "label": "Download"
+      }
+    ]
+  },
+  {
+    "title": "ShapeFX",
+    "author": "DawgVinci ",
+    "workingVersion": "1.0.0",
+    "gameVersion": ["Beta", "Public"],
+    "keybind": "F6",
+    "features": ["Skateboard Deck Shapes", "Custom Materials"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://discord.com/invite/GmuBn6UzUh",
+        "label": "DawgVinci's Discord"
+      },
+      {
+        "url": "https://damp-limit-8cd1.milky-irl.workers.dev/ShapeFX_1.0.0_for_SXL_1.2.6.0.zip",
+        "label": "Download"
+      }
+    ]
+  }
+]

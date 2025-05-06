@@ -1,26 +1,22 @@
-{
-  "label": "Decals",
-  "description": "Adds map decals to the game",
-  "mods": [
-    {
-      "badge": "Recommended",
-      "title": "Decal Fix",
-      "author": "Brookzee99",
-      "workingVersion": "1.2.2.8 & 1.2.5.6",
-      "gameVersion": "Alpha",
-      "keybind": "None",
-      "features": ["Enhanced Decals", "Screen Space Reflections"],
-      "note": "",
-      "downloadLinks": [
-        {
-          "url": "https://mod.io/g/skaterxl/m/decal-fix",
-          "label": "skaterxl.mod.io"
-        },
-        {
-          "url": "https://g-629.modapi.io/v1/games/629/mods/1635126/files/2693365/download",
-          "label": "Download"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "badge": "Recommended",
+    "title": "Decal Fix",
+    "author": "Brookzee99",
+    "workingVersion": "1.2.2.8 & 1.2.5.6",
+    "gameVersion": "Alpha",
+    "keybind": "None",
+    "features": ["Enhanced Decals", "Screen Space Reflections"],
+    "note": "None",
+    "downloadLinks": [
+      {
+        "url": "https://mod.io/g/skaterxl/m/decal-fix",
+        "label": "skaterxl.mod.io"
+      },
+      {
+        "url": "https://g-629.modapi.io/v1/games/629/mods/1635126/files/2693365/download",
+        "label": "Download"
+      }
+    ]
+  }
+]
