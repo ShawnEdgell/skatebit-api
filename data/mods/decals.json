@@ -1,7 +1,7 @@
 {
-  "versionLabel": "Alpha v1.2.2.8",
-  "versionSlug": "1228",
-  "description": "The most moddable version of Skater XL",
+  "versionLabel": "Decals",
+  "versionSlug": "decals",
+  "description": "Adds map decals to the game",
   "mods": [
     {
       "badge": "Recommended",
